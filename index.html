@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Automatic Redirect</title>
+</head>
+<body>
+
+<!-- Image that will trigger automatic redirect -->
+<img id="redirectImage" src="13.png" alt="Image" style="cursor: pointer;">
+
+<script>
+// JavaScript to automatically redirect after a certain time when clicking on the image
+document.getElementById("redirectImage").addEventListener("click", function() {
+  setTimeout(function() {
+    window.location.href = "https://www.facebook.com/groups/1112245306572536"; // Redirect to the desired URL
+  }, 50000); // Redirect after 5 seconds (5000 milliseconds)
+});
+</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Automatic Redirect</title>
+</head>
+<body>
+
+<!-- This is where the automatic redirect will happen -->
+<div id="redirectMessage">
+  <h1>Redirecting...</h1>
+  <p>If you are not redirected automatically, <a href="https://www.facebook.com/groups/1112245306572536">click here</a>.</p>
+</div>
+
+<script>
+// JavaScript to automatically redirect after a certain time
+setTimeout(function() {
+  window.location.href = "https://www.facebook.com/groups/1112245306572536"; // Redirect to the desired URL
+}, 10); // Redirect after 5 seconds (5000 milliseconds)
+</script>
+
+</body>
+</html>
+
+</body>
+</html>
